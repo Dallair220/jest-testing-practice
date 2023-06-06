@@ -17,13 +17,13 @@ it('should subtract both numbers', () => {
 it('should divide both numbers', () => {
   expect(calculator.divide(8, 4)).toBe(2);
 });
-it('should addivided both numbers', () => {
+it('should divide both numbers', () => {
   expect(calculator.divide(2, 4)).toBe(0.5);
 });
 
-it('should divide both numbers', () => {
+it('should multiply both numbers', () => {
   expect(calculator.multiply(8, 4)).toBe(32);
 });
-it('should addivided both numbers', () => {
+it('should multiply both numbers', () => {
   expect(calculator.multiply(-2, 4)).toBe(-8);
 });
